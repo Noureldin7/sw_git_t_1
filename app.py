@@ -24,11 +24,7 @@ def Check(User,username):
 
 def user_exists(email, username, password):
     # TODO: check for user if exists, you can use an array as your records.
-<<<<<<< HEAD
     # M1:checks array for user
-=======
-    #user exists checks if there is a user in our array and makes sure it is not repeated
->>>>>>> e3032469b1d2736775a45e7dc477fdf6da1c1f3a
     return True in list(map(lambda user: Check(user, username),Users))
 
 app.run(debug=True)    
